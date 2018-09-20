@@ -1,0 +1,31 @@
+/* Embed Font */
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600');
+
+
+body {
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  color: #fff;
+  background: -webkit-linear-gradient(to right, #556270, #ff6b6b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #556270, #ff6b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Time Block CSS */
+.time_block {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.time_block h1 {
+  margin: 1rem 0;
+}
+
+/* Greet Msg Block */
+.greet_msg {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.user-details, .greet_msg {
+  display: none;
+}

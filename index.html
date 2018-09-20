@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chrome Extension For Blog</title>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+  <!-- Main Section -->
+  <main>
+    <!-- Block for time -->
+    <div class="time_block">
+      <h1 class="time"><span id="hour"></span> : <span id="minutes"></span></h1>
+    </div>
+
+    <!-- Block for Greet Msg -->
+    <div class="user-details">
+      <span class="user-name_text">Enter Your Name</span>
+      <input type="text" id="user-name_value">
+      <button id="submit">Submit</button>
+    </div>
+
+    <div class="greet_msg">
+      <h3><span id="greet-msg"></span>, <span id="user-name"></span></h3>
+    </div>
+  </main>
+
+  <!-- Script -->
+  <script src="src/js/main.js"></script>
+</body>
+</html>
